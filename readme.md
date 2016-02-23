@@ -23,9 +23,7 @@ To get started clone the repository and run the command **_npm install_** to ins
 1. Clone repository
 2. Run command **_npm install_** to install dependencies
 
-
-
-#### Build and run the example application
+Build and run the example application
 
 1. Run command **_npm run build_**. Project is built to the **/build** folder
 2. Run command **_npm run serve_** to start a simple dev-server with the **/build/public** as web root.
