@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   entry: {
     build: './src/main.jsx'
   },
@@ -9,12 +9,7 @@ module.exports = {
   module: {
     loaders: [
       {
-        test: /\.jsx$/,
-        loaders: ['babel'],
-        exclude: /node_modules/
-      },
-      {
-        test: /\.js$/,
+        test: /\.jsx$|\.js$/,
         loaders: ['babel'],
         exclude: /node_modules/
       }
