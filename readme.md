@@ -9,7 +9,6 @@ Slim webpack/react boilerplate template without unnecessary fluff and stuff.
 
 ### Todo
 
-* Setup dev-server with hot-reloading
 * Setup tests
 
 ## Example application
@@ -26,5 +25,5 @@ To get started clone the repository and run the command **_npm install_** to ins
 Build and run the example application
 
 1. Run command **_npm run build_**. Project is built to the **/build** folder
-2. Run command **_npm run serve_** to start a simple dev-server with the **/build/public** as web root.
+2. Run command **_npm run development_** to start the dev-server
 3. Browse to **localhost:8080** and admire the yet not so awesome application.

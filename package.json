@@ -8,29 +8,27 @@
     "babel-preset-es2015": "^6.5.0",
     "babel-preset-react": "^6.5.0",
     "colors": "^1.1.2",
-    "css-loader": "^0.23.1",
     "deep-merge": "^1.0.0",
     "del": "^2.2.0",
     "eslint": "^2.2.0",
     "eslint-config-airbnb": "^6.0.0",
     "eslint-plugin-react": "^4.0.0",
     "extract-text-webpack-plugin": "^1.0.1",
-    "less-loader": "^2.2.2",
     "mkdirp": "^0.5.1",
     "ncp": "^2.0.0",
+    "raw-loader": "^0.5.1",
     "react": "^0.14.3",
     "react-dom": "^0.14.7",
     "style-loader": "^0.13.0",
-    "webpack": "^1.12.13"
+    "webpack": "^1.12.13",
+    "webpack-dev-server": "^1.14.1"
   },
   "scripts": {
     "build": "npm install && babel-node ./tools/build",
     "clean": "babel-node --eval \"require('./tools/clean').default()\"",
     "copy": "babel-node --eval \"require('./tools/copy').default()\"",
     "bundle": "babel-node --eval \"require('./tools/bundle').default()\"",
-    "serve": "http-server ./build/public -c-1",
-    "lint": "babel-node --eval \"require('./tools/eslint').default()\"",
-    "test": "",
-    "validate": "npm ls"
+    "development": "babel-node ./tools/development",
+    "lint": "babel-node --eval \"require('./tools/eslint').default()\""
   }
 }
